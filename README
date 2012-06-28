@@ -1,0 +1,30 @@
+An hello-world webserver in C using libuv (https://github.com/joyent/libuv) and
+http-parser (https://github.com/ry/http-parser) based on Ryan Dahl's tutorial
+http://vimeo.com/24713213 and updated to make it work with the most recent
+libuv API.
+
+Build it
+
+git clone https://github.com/ry/http-parser.git
+git clone https://github.com/joyent/libuv
+make
+
+Run it
+
+./webserver
+curl http://127.0.0.1:8000/
+
+Stress-test it
+
+ab -n 5000 -c 500 http://127.0.0.1:8000/
+
+Call for coders!
+I have this insane idea of writing a lightweight c++ web framework on top of
+libuv. But. I can't do it by myself.
+Anyone crazy enough to join me? Drop me a tweet / email.
+
+- Andrea
+    https://twitter.com/utaal
+    https://github.com/utaal
+    utaaal+spam@gmail.com
+
