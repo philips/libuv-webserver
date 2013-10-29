@@ -3,4 +3,4 @@
 	url = https://github.com/joyent/libuv.git
 [submodule "http-parser"]
 	path = http-parser
-	url = http://github.com/joyent/http-parser.git
+	url = https://github.com/joyent/http-parser.git
